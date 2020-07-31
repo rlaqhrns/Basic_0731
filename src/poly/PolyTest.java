@@ -20,26 +20,8 @@ public class PolyTest {
 		al.add(new Tv());
 
 		al.add(new Audio());
-		IAttachable im = new IAttachable() {
-			
-			@Override
-			public float sum(int a, int b) {
-				// TODO Auto-generated method stub
-				return 0;
-			}
-			
-			@Override
-			public int sum() {
-				// TODO Auto-generated method stub
-				return 0;
-			}
-			
-			@Override
-			public void driving() {
-				// TODO Auto-generated method stub
-				
-			}
-		};
+		IAttachable im = new ImplAttatchable();
+		
 	}
 
 }
